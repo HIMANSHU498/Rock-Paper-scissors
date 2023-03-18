@@ -51,7 +51,7 @@ function pcPicked(a) {
     rockCirclePc.style.display = "none";
     paperCirclePc.style.display = "none";
     scissorCirclePc.style.display = "block";
-  }m
+  }
 }
 
 function game(userSelection) {
