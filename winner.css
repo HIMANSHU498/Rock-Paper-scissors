@@ -1,0 +1,161 @@
+* {
+  background: #8cc461;
+}
+
+.rules-btn {
+  position: absolute;
+  width: 122px;
+  height: 40px;
+  left: 1120px;
+  top: 540px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.rules-btn:active {
+  background-color: #72a24d;
+}
+
+.rules-box {
+  position: absolute;
+  width: 290px;
+  height: 317px;
+  left: 964px;
+  top: 208px;
+  display: none;
+}
+.content {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 260px;
+  height: 290px;
+  top: 27px;
+  background: #004429;
+  border: 5px solid #ffffff;
+  border-radius: 13px;
+}
+.cancel-btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ff0000;
+  color: white;
+  border: 5px solid #ffffff;
+  left: 235px;
+  font-family: cursive;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.rules-heading {
+  position: absolute;
+
+  left: 50px;
+
+  background: #004429;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+.rule1 {
+  position: absolute;
+  width: 211px;
+  height: 27px;
+  left: 30px;
+  top: 60px;
+  background: #004429;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.stars-img {
+  position: absolute;
+  width: 504px;
+  height: 297px;
+  left: 378px;
+  top: 46px;
+}
+.trophy-img {
+  position: absolute;
+  left: 42.52%;
+  right: 40.83%;
+  top: 23.61%;
+  bottom: 47.15%;
+}
+.hurray {
+  position: absolute;
+  width: 464px;
+  height: 86px;
+  left: 406px;
+  top: 370px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 81px;
+  line-height: 90px;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.won {
+  position: absolute;
+  width: 457px;
+  height: 48px;
+  left: 402px;
+  top: 449px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 48px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.play-btn {
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 550px;
+  top: 513px;
+  border: none;
+  border-radius: 9px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  background: white;
+  color: #6b6b6b;
+  cursor: pointer;
+}
+.play-btn:active {
+  background-color: #e2e2e1;
+}

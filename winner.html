@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="winner.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lobster&family=PT+Sans+Narrow&family=Roboto:wght@100;400&family=Shippori+Antique+B1&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Rock, Paper and Scissor</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="stars.png" alt="stars" class="stars-img" />
+
+      <img src="trophy.png" alt="trophy" class="trophy-img" />
+      <div class="hurray">HURRAY!!</div>
+      <div class="won">YOU WON THE GAME</div>
+      <a href="index.html"><button class="play-btn">PLAY AGAIN</button></a>
+      <button class="rules-btn" onclick="show()">RULES</button>
+      <div class="rules-box">
+        <div class="content">
+          <h1 class="rules-heading">Game Rules</h1>
+          <div style="width: 8px; height: 8px; background: #ffd600"></div>
+          <div class="rule1">
+            Rock beats scissors, scissors beat paper, and paper beats rock.
+          </div>
+          <div style="width: 8px; height: 8px; background: #ffd600"></div>
+          <div class="rule1" style="top: 100px">
+            Agree ahead of time whether you’ll count off “rock, paper, scissors,
+            shoot” or just “rock, paper, scissors.”
+          </div>
+          <div
+            style="
+              width: 8px;
+              height: 8px;
+              background: #ffd600;
+              left: 15px;
+              top: 160px;
+            "
+          ></div>
+          <div class="rule1" style="top: 160px">
+            Use rock, paper, scissors to settle minor decisions or simply play
+            to pass the time
+          </div>
+          <div
+            style="
+              width: 8px;
+              height: 8px;
+              background: #ffd600;
+              left: 15px;
+              top: 110px;
+            "
+          ></div>
+          <div class="rule1" style="top: 220px">
+            If both players lay down the same hand, each player lays down
+            another hand
+          </div>
+        </div>
+        <button class="cancel-btn">X</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

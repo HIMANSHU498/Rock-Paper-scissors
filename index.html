@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lobster&family=PT+Sans+Narrow&family=Roboto:wght@100;400&family=Shippori+Antique+B1&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Rock, Paper and Scissor</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-box">
+        <div class="title">ROCK PAPER SCISSORS</div>
+        <div class="score-box">
+          <div class="c-score">
+            <span> COMPUTER SCORE </span>
+            <span id="c-score">0</span>
+          </div>
+          <div class="h-score">
+            <span
+              >YOUR <br />
+              SCORE
+            </span>
+            <span id="h-score">0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- after user click -->
+      <div class="game-box1">
+        <div class="ecllipse-u">
+          <div class="ecllipse1">
+            <div class="ecllipse2"></div>
+          </div>
+        </div>
+        <div class="ecllipse-pc">
+          <div class="ecllipse1">
+            <div class="ecllipse2"></div>
+          </div>
+        </div>
+        <div class="user-picked" style="background: none">YOU PICKED</div>
+        <div class="pc-picked" style="background: none">PC PICKED</div>
+        <div class="rock-circle-u">
+          <div class="rock-circle2-u">
+            <img src="rock.png" alt="rock img" class="rock-img-u" />
+          </div>
+        </div>
+        <div class="scissor-circle-u">
+          <div class="scissor-circle2-u">
+            <img src="scissor.png" alt="scissor img" class="scissor-img-u" />
+          </div>
+        </div>
+        <div class="paper-circle-u">
+          <div class="paper-circle2-u">
+            <img src="paper.png" alt="paper img" class="paper-img-u" />
+          </div>
+        </div>
+
+        <div class="game-status">YOU WIN</div>
+        <span
+          class="against-pc"
+          style="
+            color: white;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 26px;
+            background: none;
+            left: 347px;
+            top: 190px;
+          "
+          >AGAINST PC</span
+        >
+
+        <button class="replay-btn" onclick="playAgain()">PLAY AGAIN</button>
+        <div class="rock-circle-pc">
+          <div class="rock-circle2-pc">
+            <img src="rock.png" alt="rock img" class="rock-img-pc" />
+          </div>
+        </div>
+        <div class="scissor-circle-pc">
+          <div class="scissor-circle2-pc">
+            <img src="scissor.png" alt="scissor img" class="scissor-img-pc" />
+          </div>
+        </div>
+        <div class="paper-circle-pc">
+          <div class="paper-circle2-pc">
+            <img src="paper.png" alt="paper img" class="paper-img-pc" />
+          </div>
+        </div>
+      </div>
+      <div class="game-box">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+
+        <div class="rock-circle1" onclick="rock1()">
+          <div class="rock-circle2">
+            <img src="rock.png" alt="rock img" class="rock-img shake" />
+          </div>
+        </div>
+
+        <div class="scissor-circle1" onclick="scissors1()">
+          <div class="scissor-circle2">
+            <img
+              src="scissor.png"
+              alt="scissor img"
+              class="scissor-img shake"
+            />
+          </div>
+        </div>
+        <div class="paper-circle1" onclick="paper1()">
+          <div class="paper-circle2">
+            <img src="paper.png" alt="paper img" class="paper-img shake" />
+          </div>
+        </div>
+      </div>
+      <a href="winner.html" class="next-btn"> NEXT </a>
+      <button class="rules-btn" onclick="show()">RULES</button>
+      <div class="rules-box">
+        <div class="content">
+          <h1 class="rules-heading">Game Rules</h1>
+          <div
+            style="
+              width: 8px;
+              height: 8px;
+              background: #ffd600;
+              left: 15px;
+              top: 70px;
+            "
+          ></div>
+          <div class="rule1">
+            Rock beats scissors, scissors beat paper, and paper beats rock.
+          </div>
+          <div
+            style="
+              width: 8px;
+              height: 8px;
+              background: #ffd600;
+              left: 15px;
+              top: 110px;
+            "
+          ></div>
+          <div class="rule1" style="top: 100px">
+            Agree ahead of time whether you’ll count off “rock, paper, scissors,
+            shoot” or just “rock, paper, scissors.”
+          </div>
+          <div
+            style="
+              width: 8px;
+              height: 8px;
+              background: #ffd600;
+              left: 15px;
+              top: 160px;
+            "
+          ></div>
+          <div class="rule1" style="top: 160px">
+            Use rock, paper, scissors to settle minor decisions or simply play
+            to pass the time
+          </div>
+          <div
+            style="
+              width: 8px;
+              height: 8px;
+              background: #ffd600;
+              left: 15px;
+              top: 210px;
+            "
+          ></div>
+          <div class="rule1" style="top: 220px">
+            If both players lay down the same hand, each player lays down
+            another hand
+          </div>
+        </div>
+        <button class="cancel-btn">X</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
