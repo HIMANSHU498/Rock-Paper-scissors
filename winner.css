@@ -159,3 +159,308 @@
 .play-btn:active {
   background-color: #e2e2e1;
 }
+
+@media screen and (min-width: 1300px) {
+  .rules-btn {
+    position: absolute;
+    width: 122px;
+    height: 40px;
+    left: 1240px;
+    top: 600px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .rules-btn:active {
+    background-color: #72a24d;
+  }
+
+  .rules-box {
+    position: absolute;
+    width: 290px;
+    height: 317px;
+    left: 1104px;
+    top: 258px;
+    display: none;
+  }
+  .content {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 260px;
+    height: 290px;
+    top: 27px;
+    background: #004429;
+    border: 5px solid #ffffff;
+    border-radius: 13px;
+  }
+  .cancel-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ff0000;
+    color: white;
+    border: 5px solid #ffffff;
+    left: 235px;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    cursor: pointer;
+  }
+  .rules-heading {
+    position: absolute;
+
+    left: 50px;
+
+    background: #004429;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 20px;
+
+    color: #ffffff;
+  }
+  .rule1 {
+    position: absolute;
+    width: 211px;
+    height: 27px;
+    left: 30px;
+    top: 60px;
+    background: #004429;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #ffffff;
+  }
+
+  .stars-img {
+    position: absolute;
+    width: 564px;
+    height: 297px;
+    left: 448px;
+    top: 46px;
+  }
+  .trophy-img {
+    position: absolute;
+    left: 45.02%;
+    right: 40.83%;
+    top: 23.61%;
+    bottom: 47.15%;
+  }
+  .hurray {
+    position: absolute;
+    width: 464px;
+    height: 86px;
+    left: 506px;
+    top: 390px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 81px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+  }
+  .won {
+    position: absolute;
+    width: 457px;
+    height: 48px;
+    left: 502px;
+    top: 479px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 48px;
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+  }
+  .play-btn {
+    position: absolute;
+    width: 190px;
+    height: 55px;
+    left: 630px;
+    top: 543px;
+    border: none;
+    border-radius: 12px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    background: white;
+    color: #6b6b6b;
+    cursor: pointer;
+  }
+  .play-btn:active {
+    background-color: #e2e2e1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rules-btn {
+    position: absolute;
+    width: 88px;
+    height: 40px;
+    left: 230px;
+    top: 450px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .rules-box {
+    display: none;
+    position: absolute;
+    width: 180px;
+    height: 250px;
+    left: 180px;
+    top: 280px;
+    background: none;
+  }
+  .content {
+    width: 170px;
+    height: 260px;
+    top: 5px;
+    background: #004429;
+    border: 5px solid #ffffff;
+    border-radius: 13px;
+  }
+  .cancel-btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 6px;
+    left: 134px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  .rules-heading {
+    position: absolute;
+
+    left: 40px;
+    top: 15px;
+    background: #004429;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+
+    color: #ffffff;
+  }
+  .rule1 {
+    position: absolute;
+    width: 130px;
+    height: 2px;
+    left: 30px;
+    top: 60px;
+    background: none;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 9px;
+  }
+
+  .stars-img {
+    position: absolute;
+    width: 294px;
+    height: 207px;
+    left: 40px;
+    top: 26px;
+  }
+  .trophy-img {
+    position: absolute;
+    left: 30.52%;
+    right: 40.83%;
+    top: 14.61%;
+    bottom: 47.15%;
+    width: 160px;
+    height: 200px;
+    background: none;
+  }
+  .hurray {
+    position: absolute;
+    width: 264px;
+    height: 86px;
+    left: 60px;
+    top: 280px;
+    background: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+  }
+  .won {
+    position: absolute;
+    width: 257px;
+    height: 48px;
+    left: 62px;
+    top: 349px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+  }
+  .play-btn {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 100px;
+    top: 383px;
+    border: none;
+    border-radius: 9px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    background: white;
+    color: #6b6b6b;
+    cursor: pointer;
+  }
+}

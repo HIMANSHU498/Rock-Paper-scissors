@@ -167,19 +167,6 @@ function scissors1() {
   return game("scissors");
 }
 
-// function rps() {
-//   rock.addEventListener("click", () => {
-//     game("rock");
-//   });
-//   paper.addEventListener("click", () => {
-//     game("paper");
-//   });
-//   scissors.addEventListener("click", () => {
-//     game("scissors");
-//   });
-// }
-// rps();
-
 function updateScore() {
   localStorage.setItem("computer", computerScore);
   localStorage.setItem("user", userScore);
